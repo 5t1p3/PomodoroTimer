@@ -6,6 +6,9 @@ import {
   settingsBtn,
   minutes,
   seconds,
+  ring,
 } from "./utils/elements.js";
+ring.classList.add("ending");
 startBtn.addEventListener("click", startTimer);
+
 settingsBtn.addEventListener("click", editTime);
